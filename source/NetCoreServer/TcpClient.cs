@@ -140,6 +140,11 @@ namespace NetCoreServer
         public bool IsConnected { get; private set; }
 
         /// <summary>
+        /// Is the client disconnected?
+        /// </summary>
+        public bool IsDisConnected { get; private set; }
+
+        /// <summary>
         /// Create a new socket object
         /// </summary>
         /// <remarks>
